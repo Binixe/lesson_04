@@ -1,11 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loup</title>
+    <meta name="description" content="Pars à la rencontre du loup : son mode de vie, son habitat et son rôle essentiel dans la nature.">
+    <meta name="theme-color" content="#111a18">
+    <title>Le loup — Esprit sauvage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand"><span class="brand-mark" aria-hidden="true">✳</span> esprit sauvage<span class="brand-dot">.</span></div>
+            <p class="header-note"><span class="status-dot" aria-hidden="true"></span> À la rencontre du loup</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> LE GRAND VOYAGEUR DES FORÊTS</p>
+                <h1 id="hero-title">Libre.<br>Discret.<br><em>Indispensable.</em></h1>
+                <p class="hero-description">On l’entend parfois au loin, mais on le voit rarement. Le loup est un animal fascinant, adapté à la vie en famille et à de vastes territoires sauvages.</p>
+                <div class="hero-actions">
+                    <button class="fact-button" id="fact-button" type="button">Découvrir un fait <span aria-hidden="true">✦</span></button>
+                    <span class="action-note">La forêt a ses secrets</span>
+                </div>
+                <div class="hero-stats" aria-label="Quelques repères sur le loup">
+                    <div><strong>Grand voyageur</strong><span>il peut parcourir de longues distances</span></div>
+                    <span class="stats-divider" aria-hidden="true"></span>
+                    <div><strong>En famille</strong><span>la meute est souvent un groupe familial</span></div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=1400&q=85" alt="Un loup gris observant son environnement naturel">
+                <div class="hero-label"><span aria-hidden="true">✧</span><p>Un esprit libre.<br>Un rôle précieux.</p></div>
+                <span class="moon" aria-hidden="true"></span>
+                <span class="image-credit">LA NATURE, SANS BRUIT</span>
+            </div>
+        </section>
+
+        <section class="fact-bar" aria-live="polite" aria-atomic="true">
+            <span class="fact-icon" aria-hidden="true">✦</span>
+            <div><span class="fact-kicker">LE SAVIEZ-VOUS ?</span><p id="wolf-fact">Le hurlement aide les loups à communiquer et à faire entendre leur présence sur de longues distances.</p></div>
+            <span class="fact-decoration" aria-hidden="true">〰</span>
+        </section>
+
+        <section class="life-section content-width" aria-labelledby="life-title">
+            <div class="section-heading">
+                <div><p class="eyebrow muted-eyebrow">UNE VIE BIEN ORGANISÉE</p><h2 id="life-title">La force du collectif.</h2></div>
+                <p class="section-intro">Le loup est un animal social. La coopération au sein de sa famille l’aide à élever les jeunes, à se déplacer et à trouver sa nourriture.</p>
+            </div>
+            <div class="life-grid">
+                <article class="life-card">
+                    <span class="card-icon icon-pack" aria-hidden="true">♧</span><span class="card-index">01 / LA MEUTE</span>
+                    <h3>Une famille avant tout</h3><p>Une meute est généralement une famille composée d’adultes et de leurs petits. Sa taille varie selon les ressources et le territoire.</p>
+                </article>
+                <article class="life-card card-highlight">
+                    <span class="card-icon icon-call" aria-hidden="true">〰</span><span class="card-index">02 / LE HURLEMENT</span>
+                    <h3>Une voix dans la nuit</h3><p>Les hurlements permettent notamment aux loups de garder le contact et de signaler leur présence à leurs voisins.</p>
+                </article>
+                <article class="life-card">
+                    <span class="card-icon icon-senses" aria-hidden="true">◎</span><span class="card-index">03 / LES SENS</span>
+                    <h3>À l’écoute du monde</h3><p>Son odorat et son ouïe développés l’aident à repérer des odeurs, des sons et les déplacements autour de lui.</p>
+                </article>
+            </div>
+            <p class="gentle-note"><span aria-hidden="true">✦</span> Le loup reste un animal sauvage : observons-le à distance, sans chercher à l’approcher ni à le nourrir.</p>
+        </section>
+
+        <section class="habitat-section" aria-labelledby="habitat-title">
+            <div class="habitat-inner content-width">
+                <div class="habitat-art" role="img" aria-label="Illustration de montagnes et de forêt au clair de lune">
+                    <span class="art-moon" aria-hidden="true"></span><span class="art-star star-one" aria-hidden="true">✦</span><span class="art-star star-two" aria-hidden="true">✧</span>
+                    <span class="ridge ridge-back" aria-hidden="true"></span><span class="ridge ridge-front" aria-hidden="true"></span>
+                    <span class="art-caption">UN TERRITOIRE À PRÉSERVER</span>
+                </div>
+                <div class="habitat-copy">
+                    <p class="eyebrow muted-eyebrow">CHEZ LUI, DANS LA NATURE</p>
+                    <h2 id="habitat-title">Des forêts aux grands espaces.</h2>
+                    <p>Le loup peut vivre dans des milieux très variés : forêts, montagnes, plaines ou régions froides. Il a besoin d’un habitat suffisamment vaste et de proies sauvages.</p>
+                    <div class="habitat-facts">
+                        <div><span class="mini-mark" aria-hidden="true">⌖</span><p><strong>Un grand territoire</strong><br>La superficie occupée varie selon les proies, le paysage et la présence d’autres meutes.</p></div>
+                        <div><span class="mini-mark mini-mark-alt" aria-hidden="true">❋</span><p><strong>Un rôle dans l’écosystème</strong><br>Comme prédateur, il participe aux équilibres naturels et interagit avec de nombreuses espèces.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="protect-section content-width" aria-labelledby="protect-title">
+            <div class="protect-heading"><p class="eyebrow muted-eyebrow">APPRENDRE À COEXISTER</p><h2 id="protect-title">Mieux connaître pour mieux protéger.</h2><p>La cohabitation entre les loups et les activités humaines demande des solutions adaptées aux territoires. Mieux s’informer aide à comprendre les enjeux et à dépasser les idées reçues.</p></div>
+            <div class="protect-grid">
+                <article class="protect-card"><span aria-hidden="true">⌂</span><h3>Préserver les habitats</h3><p>Des espaces naturels en bon état profitent au loup et à de nombreuses autres espèces.</p></article>
+                <article class="protect-card"><span aria-hidden="true">♡</span><h3>Écouter les territoires</h3><p>La coexistence se construit avec les personnes qui vivent et travaillent près de la faune sauvage.</p></article>
+                <article class="protect-card"><span aria-hidden="true">✧</span><h3>Garder un regard curieux</h3><p>Des informations fiables permettent de mieux comprendre le rôle du loup et les défis de sa présence.</p></article>
+            </div>
+        </section>
+
+        <section class="closing content-width" aria-label="Un message sur le loup">
+            <span class="closing-emblem" aria-hidden="true">✳</span>
+            <p>La forêt est son monde.<br><span>Notre curiosité peut le respecter.</span></p>
+            <span class="closing-spark" aria-hidden="true">✦</span>
+        </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-brand"><span aria-hidden="true">✳</span> esprit sauvage<span class="brand-dot">.</span></div><p>Un regard curieux sur le monde du loup.</p><span class="footer-small">FAUNE SAUVAGE · OBSERVER SANS DÉRANGER</span></footer>
 </body>
 </html>
