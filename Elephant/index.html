@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elephant</title>
+    <meta name="description" content="Découvrez les éléphants, ces géants sensibles et intelligents, leurs familles, leurs incroyables capacités et les façons de les protéger.">
+    <meta name="theme-color" content="#f5f2eb">
+    <title>Les Géants doux — Le monde des éléphants</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand" aria-label="Les Géants doux">
+                <span class="brand-mark" aria-hidden="true">◉</span>
+                <span>les géants doux<span class="brand-dot">.</span></span>
+            </div>
+            <p class="header-note"><span class="header-dot"></span> À la rencontre des éléphants</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> LES GARDIENS DES GRANDS ESPACES</p>
+                <h1 id="hero-title">Un cœur immense<br>dans un <em>géant.</em></h1>
+                <p class="hero-description">Paisibles, curieux et profondément sociaux, les éléphants sont bien plus que les plus grands animaux terrestres. Découvrez leur monde fascinant.</p>
+                <div class="hero-actions">
+                    <button class="fact-button" id="fact-button" type="button">Découvrir un fait étonnant <span aria-hidden="true">✦</span></button>
+                    <span class="action-caption">Une surprise venue de la savane</span>
+                </div>
+                <div class="hero-stats" aria-label="Quelques chiffres sur les éléphants">
+                    <div><strong>40 000</strong><span>muscles dans leur trompe</span></div>
+                    <span class="stats-separator" aria-hidden="true"></span>
+                    <div><strong>22 mois</strong><span>de gestation environ</span></div>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img class="hero-image" src="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=1400&q=85" alt="Éléphant d'Afrique marchant dans un paysage naturel">
+                <div class="hero-image-caption"><span aria-hidden="true">✳</span><p>La mémoire est grande.<br>Le cœur, encore plus.</p></div>
+                <span class="hero-sun" aria-hidden="true">✺</span>
+            </div>
+        </section>
+
+        <section class="fact-bar" aria-live="polite" aria-atomic="true">
+            <span class="fact-symbol" aria-hidden="true">!</span>
+            <div><span class="fact-label">LE SAVIEZ-VOUS ?</span><p id="elephant-fact">La trompe d’un éléphant lui sert à respirer, sentir, communiquer et saisir des objets.</p></div>
+            <span class="fact-wave" aria-hidden="true">〰</span>
+        </section>
+
+        <section class="features content-width" aria-labelledby="features-title">
+            <div class="section-heading">
+                <div><p class="eyebrow muted-eyebrow">DES CAPACITÉS EXTRAORDINAIRES</p><h2 id="features-title">Un géant plein de surprises.</h2></div>
+                <p class="section-intro">Derrière leur allure tranquille se cache une vie sociale riche, une intelligence remarquable et des sens étonnants.</p>
+            </div>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <span class="feature-icon icon-trunk" aria-hidden="true">〽</span><span class="feature-index">01 / LA TROMPE</span>
+                    <h3>Un outil incroyable</h3><p>Composée de dizaines de milliers de muscles, la trompe peut déplacer une branche ou ramasser délicatement un petit fruit. Elle sert aussi à boire et à communiquer.</p>
+                </article>
+                <article class="feature-card feature-card-tint">
+                    <span class="feature-icon icon-family" aria-hidden="true">♡</span><span class="feature-index">02 / LA FAMILLE</span>
+                    <h3>Ensemble, toujours</h3><p>Les éléphants vivent en groupes familiaux soudés. Les femelles expérimentées guident souvent le troupeau et les adultes veillent sur les petits.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="feature-icon icon-memory" aria-hidden="true">✧</span><span class="feature-index">03 / LA MÉMOIRE</span>
+                    <h3>Une mémoire précieuse</h3><p>Leur mémoire les aide à retrouver des points d’eau et à reconnaître d’autres éléphants. Ils échangent aussi des sons graves, parfois difficiles à entendre pour nous.</p>
+                </article>
+            </div>
+            <p class="note"><span aria-hidden="true">✦</span> Les éléphants sont des animaux sauvages : mieux vaut les observer à distance, dans le respect de leur tranquillité.</p>
+        </section>
+
+        <section class="species-section" aria-labelledby="species-title">
+            <div class="species-inner content-width">
+                <div class="species-copy">
+                    <p class="eyebrow muted-eyebrow">DEUX CONTINENTS, PLUSIEURS ESPÈCES</p>
+                    <h2 id="species-title">Des éléphants, au pluriel.</h2>
+                    <p>On distingue principalement les éléphants d’Afrique et ceux d’Asie. Ils ont beaucoup de points communs, mais aussi des différences visibles. Chaque espèce joue un rôle important dans son environnement.</p>
+                    <div class="species-list">
+                        <article class="species-item"><span class="species-number">01</span><div><h3>L’éléphant d’Afrique</h3><p>Il vit dans différentes régions d’Afrique. Ses grandes oreilles l’aident à évacuer la chaleur, et sa trompe porte généralement deux « doigts » au bout.</p></div></article>
+                        <article class="species-item"><span class="species-number">02</span><div><h3>L’éléphant d’Asie</h3><p>On le trouve dans plusieurs régions d’Asie. Ses oreilles sont plus petites et il possède généralement un seul « doigt » préhensile au bout de la trompe.</p></div></article>
+                    </div>
+                </div>
+                <div class="species-photo-wrap">
+                    <img src="https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=1100&q=85" alt="Éléphant observé dans son habitat naturel">
+                    <span class="species-photo-label">CHAQUE ESPÈCE A SON HISTOIRE</span>
+                    <span class="species-decoration" aria-hidden="true">✳</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="protect content-width" aria-labelledby="protect-title">
+            <div class="protect-heading"><p class="eyebrow muted-eyebrow">UN AVENIR À PRÉSERVER</p><h2 id="protect-title">Protéger les géants, c’est protéger leur maison.</h2><p>Dans certaines régions, les éléphants sont menacés par la disparition de leur habitat, les conflits avec les activités humaines et le braconnage. Des espaces naturels préservés et des actions de conservation contribuent à leur avenir.</p></div>
+            <div class="protect-grid">
+                <article class="protect-card"><span aria-hidden="true">⌂</span><h3>Préserver les habitats</h3><p>De vastes espaces connectés leur permettent de trouver nourriture et eau, et de suivre leurs déplacements naturels.</p></article>
+                <article class="protect-card"><span aria-hidden="true">◎</span><h3>Respecter les animaux</h3><p>Une observation responsable garde une distance de sécurité et ne perturbe ni les éléphants ni leur groupe.</p></article>
+                <article class="protect-card"><span aria-hidden="true">✿</span><h3>Soutenir la conservation</h3><p>S’informer et soutenir des projets sérieux aide les équipes qui protègent les espèces et leurs milieux de vie.</p></article>
+            </div>
+        </section>
+
+        <section class="closing content-width" aria-label="Un message sur les éléphants">
+            <span class="closing-mark" aria-hidden="true">◉</span>
+            <p>La force d’un géant se mesure aussi<br><span>à la douceur de ses liens.</span></p>
+            <span class="closing-star" aria-hidden="true">✺</span>
+        </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-brand"><span aria-hidden="true">◉</span> les géants doux<span class="brand-dot">.</span></div><p>Un regard curieux sur le monde des éléphants.</p><span class="footer-note">GRANDS ANIMAUX, GRANDES HISTOIRES · 2026</span></footer>
 </body>
 </html>
