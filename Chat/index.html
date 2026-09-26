@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat</title>
+    <meta name="description" content="Un petit guide pour mieux comprendre les chats : leurs habitudes, leur langage et les attentions qui les rendent heureux.">
+    <meta name="theme-color" content="#f8f5ef">
+    <title>Le Petit Monde — Tout savoir sur les chats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand" aria-label="Le Petit Monde">
+                <span class="brand-icon" aria-hidden="true">◉</span>
+                <span>le petit monde<span class="brand-period">.</span></span>
+            </div>
+            <p class="header-message"><span class="purring-dot"></span> Une vie plus douce, avec un chat</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow"><span class="eyebrow-line"></span> À LA RENCONTRE DES CHATS</p>
+                <h1 id="hero-title">Petit félin,<br><span>grande</span> personnalité.</h1>
+                <p class="hero-description">Mystérieux, tendre et parfois un peu clown : le chat sait transformer les petits moments du quotidien en grands souvenirs.</p>
+                <div class="hero-actions">
+                    <button class="primary-button" id="surprise-button" type="button">Une anecdote, s’il vous plaît <span aria-hidden="true">✦</span></button>
+                    <span class="button-note">Un petit fait félin à découvrir</span>
+                </div>
+                <div class="hero-stats" aria-label="Quelques chiffres sur les chats">
+                    <div><strong>32</strong><span>muscles dans chaque oreille</span></div>
+                    <span class="stat-divider" aria-hidden="true"></span>
+                    <div><strong>70 %</strong><span>de leur vie à dormir</span></div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1300&q=85" alt="Chat roux aux grands yeux verts installé confortablement">
+                <div class="image-sticker"><span aria-hidden="true">✿</span><span>Expert en siestes<br>et ronronnements</span></div>
+                <span class="image-sparkle sparkle-one" aria-hidden="true">✳</span>
+                <span class="image-sparkle sparkle-two" aria-hidden="true">✦</span>
+            </div>
+        </section>
+
+        <section class="fact-strip" aria-live="polite" aria-atomic="true">
+            <span class="fact-icon" aria-hidden="true">?</span>
+            <div><span class="fact-label">LA MINUTE MIAOU</span><p id="cat-fact">Le ronronnement peut aussi être un moyen pour le chat de se rassurer.</p></div>
+            <span class="fact-decoration" aria-hidden="true">〰</span>
+        </section>
+
+        <section class="world-section content-width" aria-labelledby="world-title">
+            <div class="section-heading">
+                <div><p class="eyebrow muted-eyebrow">UN PETIT UNIVERS À DÉCRYPTER</p><h2 id="world-title">Parler chat, ça s’apprend.</h2></div>
+                <p class="section-lead">Les chats communiquent avec tout leur corps. En prenant le temps de les observer, on comprend mieux ce qu’ils essaient de nous dire.</p>
+            </div>
+            <div class="language-grid">
+                <article class="language-card">
+                    <span class="card-icon icon-tail" aria-hidden="true">〽</span>
+                    <span class="card-number">01 / LA QUEUE</span>
+                    <h3>Une vraie antenne</h3>
+                    <p>Queue dressée et détendue ? Votre chat vient souvent vous saluer. Des mouvements brusques peuvent signaler qu’il a besoin d’un peu d’espace.</p>
+                </article>
+                <article class="language-card highlighted-card">
+                    <span class="card-icon icon-eyes" aria-hidden="true">◌</span>
+                    <span class="card-number">02 / LE REGARD</span>
+                    <h3>Le clignement doux</h3>
+                    <p>Des yeux qui se ferment lentement sont généralement un signe de détente. Vous pouvez lui répondre par un lent clignement, sans le fixer.</p>
+                </article>
+                <article class="language-card">
+                    <span class="card-icon icon-ears" aria-hidden="true">⌁</span>
+                    <span class="card-number">03 / LES OREILLES</span>
+                    <h3>Toujours à l’écoute</h3>
+                    <p>Les oreilles orientées vers l’avant accompagnent souvent la curiosité. Plaquées en arrière, elles invitent à observer la situation avec prudence.</p>
+                </article>
+            </div>
+            <p class="gentle-note"><span aria-hidden="true">✦</span> Chaque chat est unique : observez l’ensemble de son attitude et respectez ses limites.</p>
+        </section>
+
+        <section class="care-section" aria-labelledby="care-title">
+            <div class="care-inner content-width">
+                <div class="care-photo">
+                    <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1100&q=85" alt="Chat tigré qui se repose dans la lumière du soleil">
+                    <span class="photo-label">LE SECRET DU BONHEUR FÉLIN</span>
+                </div>
+                <div class="care-copy">
+                    <p class="eyebrow muted-eyebrow">LES PETITES ATTENTIONS</p>
+                    <h2 id="care-title">Un chat bien dans ses pattes.</h2>
+                    <p class="care-intro">Pour s’épanouir, un chat a besoin d’un environnement rassurant où il peut jouer, se reposer et choisir quand il souhaite être près de vous.</p>
+                    <ul class="care-list">
+                        <li><span aria-hidden="true">01</span><div><strong>Un coin rien qu’à lui</strong><p>Un endroit calme pour dormir, se cacher et observer le monde en toute tranquillité.</p></div></li>
+                        <li><span aria-hidden="true">02</span><div><strong>Du jeu et de la curiosité</strong><p>Quelques séances de jeu et des activités adaptées l’aident à exprimer ses instincts naturels.</p></div></li>
+                        <li><span aria-hidden="true">03</span><div><strong>Des soins réguliers</strong><p>Une alimentation adaptée, de l’eau fraîche et un suivi vétérinaire soutiennent sa santé.</p></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="closing content-width">
+            <span class="closing-paw" aria-hidden="true">🐾</span>
+            <p>Il n’a pas besoin de grands discours.<br><span>Juste d’un foyer où être lui-même.</span></p>
+            <span class="closing-sparkle" aria-hidden="true">✳</span>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-brand"><span aria-hidden="true">◉</span> le petit monde<span class="brand-period">.</span></div>
+        <p>Créé avec douceur, pour les amoureux des chats.</p>
+        <span class="footer-detail">UN PEU DE MIAOU DANS LE QUOTIDIEN · 2026</span>
+    </footer>
 </body>
 </html>
