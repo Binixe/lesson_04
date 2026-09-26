@@ -1,10 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Lion</title>
+	<meta name="description" content="Découvrez le lion, grand félin social de la savane : sa vie en groupe, ses capacités et les défis de sa protection.">
+	<meta name="theme-color" content="#f6f1e8">
+	<title>Roi des savanes — Le monde du lion</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
 </head>
 <body>
+	<header class="site-header">
+		<div class="header-inner">
+			<div class="brand" aria-label="Roi des savanes">
+				<span class="brand-emblem" aria-hidden="true">✹</span>
+				<span>roi des savanes<span class="brand-dot">.</span></span>
+			</div>
+			<p class="header-caption"><span class="savanna-dot"></span> À la rencontre du lion</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="eyebrow"><span></span> LE GRAND FÉLIN D’AFRIQUE</p>
+				<h1 id="hero-title">Majestueux<br>par nature.<br><em>Puissant par lien.</em></h1>
+				<p class="hero-description">Avec sa crinière reconnaissable et son rugissement puissant, le lion impressionne. Mais sa vraie force se révèle aussi dans les liens étroits qu’il tisse avec son groupe.</p>
+				<div class="hero-actions">
+					<button class="fact-button" id="fact-button" type="button">Un fait sur le lion <span aria-hidden="true">✦</span></button>
+					<span class="action-note">La savane a ses secrets</span>
+				</div>
+				<div class="hero-stats" aria-label="Quelques chiffres sur le lion">
+					<div><strong>50 km/h</strong><span>sur une courte distance</span></div>
+					<span class="stats-divider" aria-hidden="true"></span>
+					<div><strong>20 h</strong><span>de repos certains jours</span></div>
+				</div>
+			</div>
+			<div class="hero-visual">
+				<img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1400&q=85" alt="Lion au regard attentif dans son habitat naturel">
+				<div class="hero-label"><span aria-hidden="true">✺</span><p>Une présence forte.<br>Un esprit de famille.</p></div>
+				<span class="hero-sun" aria-hidden="true">✳</span>
+			</div>
+		</section>
+
+		<section class="fact-bar" aria-live="polite" aria-atomic="true">
+			<span class="fact-icon" aria-hidden="true">!</span>
+			<div><span class="fact-kicker">LE SAVIEZ-VOUS ?</span><p id="lion-fact">Le lion est le seul grand félin qui vit habituellement en groupes sociaux stables.</p></div>
+			<span class="fact-decoration" aria-hidden="true">〰</span>
+		</section>
+
+		<section class="pride-section content-width" aria-labelledby="pride-title">
+			<div class="section-heading">
+				<div><p class="eyebrow muted-eyebrow">LA VIE EN GROUPE</p><h2 id="pride-title">Plus forts ensemble.</h2></div>
+				<p class="section-intro">Les lions vivent souvent en groupes appelés troupes. La vie sociale, la coopération et les liens familiaux jouent un rôle essentiel dans leur quotidien.</p>
+			</div>
+			<div class="pride-grid">
+				<article class="pride-card">
+					<span class="card-icon icon-family" aria-hidden="true">♡</span><span class="card-index">01 / LA TROUPE</span>
+					<h3>Une famille soudée</h3><p>Une troupe peut réunir des femelles apparentées, leurs petits et un ou plusieurs mâles. Sa composition évolue avec le temps et selon les conditions locales.</p>
+				</article>
+				<article class="pride-card pride-card-warm">
+					<span class="card-icon icon-roar" aria-hidden="true">〰</span><span class="card-index">02 / LE RUGISSEMENT</span>
+					<h3>Une voix qui porte</h3><p>Le rugissement aide les lions à signaler leur présence et à communiquer avec les membres de leur groupe, même lorsqu’ils sont éloignés.</p>
+				</article>
+				<article class="pride-card">
+					<span class="card-icon icon-rest" aria-hidden="true">☼</span><span class="card-index">03 / LE REPOS</span>
+					<h3>Économiser son énergie</h3><p>Les lions se reposent beaucoup, surtout pendant les heures chaudes. Ils sont souvent plus actifs lorsque la température baisse.</p>
+				</article>
+			</div>
+			<p class="gentle-note"><span aria-hidden="true">✦</span> Les lions sont des animaux sauvages. Admirons-les sans les déranger et gardons nos distances.</p>
+		</section>
+
+		<section class="habitat-section" aria-labelledby="habitat-title">
+			<div class="habitat-inner content-width">
+				<div class="habitat-image-wrap">
+					<img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1200&q=85" alt="Paysage de savane africaine, habitat de nombreuses espèces sauvages">
+					<span class="image-caption">LA SAVANE, UN ÉQUILIBRE VIVANT</span>
+				</div>
+				<div class="habitat-copy">
+					<p class="eyebrow muted-eyebrow">UN HABITAT À PRÉSERVER</p>
+					<h2 id="habitat-title">La savane, leur grand territoire.</h2>
+					<p>Les lions vivent principalement dans les savanes et les prairies d’Afrique subsaharienne. Ils ont besoin de territoires assez vastes pour se déplacer, trouver de l’eau et de la nourriture, et élever leurs petits.</p>
+					<div class="habitat-facts">
+						<div><span class="mini-mark" aria-hidden="true">⌖</span><p><strong>Un paysage changeant</strong><br>La saison des pluies et la saison sèche transforment les ressources disponibles.</p></div>
+						<div><span class="mini-mark mini-mark-alt" aria-hidden="true">◎</span><p><strong>Un rôle dans l’écosystème</strong><br>En tant que prédateurs, les lions font partie de l’équilibre complexe des espèces.</p></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="protect-section content-width" aria-labelledby="protect-title">
+			<div class="protect-heading"><p class="eyebrow muted-eyebrow">UN AVENIR À CONSTRUIRE</p><h2 id="protect-title">Protéger les lions et leur habitat.</h2><p>La perte et la fragmentation des habitats, les conflits avec les activités humaines et le braconnage mettent les lions sous pression. La conservation passe par des solutions durables qui prennent aussi en compte les communautés locales.</p></div>
+			<div class="protect-grid">
+				<article class="protect-card"><span aria-hidden="true">⌂</span><h3>Garder des espaces naturels</h3><p>Des territoires préservés et reliés facilitent les déplacements des lions et la vie de nombreuses autres espèces.</p></article>
+				<article class="protect-card"><span aria-hidden="true">♡</span><h3>Faire vivre la coexistence</h3><p>Des initiatives locales peuvent aider à réduire les tensions entre la faune sauvage et les activités humaines.</p></article>
+				<article class="protect-card"><span aria-hidden="true">✧</span><h3>S’informer avec soin</h3><p>Choisir des sources fiables et un tourisme responsable contribue à mieux comprendre les enjeux de conservation.</p></article>
+			</div>
+		</section>
+
+		<section class="closing content-width" aria-label="Un message sur les lions">
+			<span class="closing-emblem" aria-hidden="true">✹</span>
+			<p>Le roi n’est jamais seul.<br><span>La savane est toute sa maison.</span></p>
+			<span class="closing-spark" aria-hidden="true">✳</span>
+		</section>
+	</main>
+
+	<footer class="site-footer"><div class="footer-brand"><span aria-hidden="true">✹</span> roi des savanes<span class="brand-dot">.</span></div><p>Un regard curieux sur le monde des lions.</p><span class="footer-small">GRANDS FÉLINS, GRANDES HISTOIRES · 2026</span></footer>
 </body>
 </html>
